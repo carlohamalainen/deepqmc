@@ -11,7 +11,7 @@
 [![Checked with pyright](https://microsoft.github.io/pyright/img/pyright_badge.svg)](https://microsoft.github.io/pyright/)
 [![doi](https://img.shields.io/badge/doi-10.5281%2Fzenodo.3960826-blue)](http://doi.org/10.5281/zenodo.3960826)
 
-DeepQMC is an open-source sowftware suite for variational optimization of deep-learning molecular wave functions. It implements the simulation of electronic ground and excited states using deep neural network trial wave functions. The package is based on [JAX](https://github.com/google/jax) and [Haiku](https://github.com/deepmind/dm-haiku) and is configured through a cli build of [Hydra](https://hydra.cc/).
+DeepQMC is an open-source software suite for variational optimization of deep-learning molecular wave functions. It implements the simulation of electronic ground and excited states using deep neural network trial wave functions. The package is based on [JAX](https://github.com/google/jax) and [Haiku](https://github.com/deepmind/dm-haiku) and is configured through a cli build of [Hydra](https://hydra.cc/).
 
 The program solves the molecular Hamiltonian, allowing the use of effective core potentials. Excited states are obtained via a penalty-based excited-state optimization approach. A spin penalty allows states in a fixed spin sector to be targeted.
 
@@ -80,7 +80,7 @@ If you use DeepQMC for your work, please cite our implementation paper:
 
 ```
 
-Experiments including excited state optimization should cite out excited state paper:
+Experiments including excited state optimization should cite our excited state paper:
 
 ```
 @article{10.1021/acs.jctc.4c00678,
